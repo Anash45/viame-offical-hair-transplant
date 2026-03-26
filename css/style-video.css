@@ -186,6 +186,13 @@ blockquote small {
 	display: block;
 }
 /*----------------------------VIDEO SETTING-----------------------------------*/
+#big-video-wrap::after{
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	content: "";
+	background-color: #0000008d;
+}
 #big-video-wrap {
 	height: 100%;
 	left: 0;

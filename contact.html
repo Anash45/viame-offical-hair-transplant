@@ -28,7 +28,7 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        background-image: url(images/preloader.gif);
+        background-image: url(images/icon.png);
         background-repeat: no-repeat;
         background-position: center;
         margin: -100px 0 0 -100px;
@@ -44,7 +44,7 @@
     <link href="css/supersized.css" rel="stylesheet" />
     <link href="css/supersized.shutter.css" rel="stylesheet" />
     <link href="css/style-video.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/custom.css?ver=1.1" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.2" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -215,7 +215,7 @@
                   <div class="padding">
                     <p class="black-text">Info:</p>
                     <p class="gray-text">Lets Closer</p>
-                    <h2 class="about-title">Leave Message</h2>
+                    <h2 class="about-title">Book an Appointment</h2>
                   </div>
                 </div>
                 <div class="col-md-8">
@@ -322,7 +322,7 @@
         <div class="white-bg clearfix">
           <ul class="nav margin align-right nav-tabs">
             <li class="active">
-              <a href="#message-us" data-toggle="tab">Leave Message</a>
+              <a href="#message-us" data-toggle="tab">Book an Appointment</a>
             </li>
             <li><a href="#office" data-toggle="tab">Our Office</a></li>
           </ul>
@@ -397,5 +397,48 @@
     <script type="text/javascript" src="js/ticker.js"></script>
     <script type="text/javascript" src="js/jquery.easing.js"></script>
     <script type="text/javascript" src="js/jquery.BlackAndWhite.min.js"></script>
+
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: #25d366;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+      }
+      .whatsapp-float:hover {
+        transform: scale(1.1);
+      }
+      
+      .whatsapp-float img{
+        height: 36px;
+        width: 36px;
+      }
+      .whatsapp-float a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whatsapp-float a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+      }
+    </style>
+
+    <div class="whatsapp-float">
+      <a href="https://wa.me/447448592240" target="_blank" title="Chat with us on WhatsApp">
+        <img src="./images/whatsapp.png" alt="Whatsapp">
+      </a>
+    </div>
+
   </body>
 </html>

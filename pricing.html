@@ -28,7 +28,7 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        background-image: url(images/preloader.gif);
+        background-image: url(images/icon.png);
         background-repeat: no-repeat;
         background-position: center;
         margin: -100px 0 0 -100px;
@@ -44,7 +44,7 @@
     <link href="css/supersized.css" rel="stylesheet" />
     <link href="css/supersized.shutter.css" rel="stylesheet" />
     <link href="css/style-video.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/custom.css?ver=1.1" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.2" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -192,6 +192,38 @@
         </div>
       </div>
     </section>
+      <div class="clearfix"></div>
+      <div class="container about-hero-wrap">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="about-hero-copy">
+              <h4>Doctor-Led Hair Restoration from Consultation to Results</h4>
+              <h1>Expert Hair Transplant Surgeon London &amp; Sheffield</h1>
+              <p>
+                At Official Hair Clinic, your hair transplant journey is guided by
+                experienced medical professionals every step of the way. From
+                your first consultation to your final results, you are in the
+                care of GMC-registered doctors and qualified nurses
+                specialising in advanced FUE hair restoration techniques.
+              </p>
+              <ul class="about-hero-list">
+                <li>5,000+ successful hair transplants</li>
+                <li>10 years experience as a medical professional</li>
+                <li>Specialists in advanced hair transplant techniques</li>
+              </ul>
+              <a class="view-more" href="#contact">Book a consultation</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="about-hero-image white-bg">
+              <img
+                src="https://city-clinics.co.uk/wp-content/uploads/2025/04/city_clinics_our-team-839x1024.jpg"
+                alt="Official Hair Clinic hair transplant team"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
     <section id="services" class="clearfix content">
       <div class="container">
@@ -245,12 +277,13 @@
 
           <div class="col-sm-6 col-md-3">
             <div class="padding align-center white-bg pricing-table">
-              <h3>Mega Transplant</h3>
+              <h3>Luxury Transplant</h3>
               <i class="price-icon fa fa-flask"></i>
-              <p>Grafts 2,000 - 3,000</p>
+              <p>3000+ Grafts</p>
+              <p>Includes Cars and Hotel</p>
               <p>Suitable for extensive hair loss.</p>
-              <p><strong>£6,999.99</strong></p>
-              <p class="price">£583 per month / 12 months</p>
+              <p><strong>£12,500</strong></p>
+              <p class="price">£1,042 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
               <a class="view-more" href="#contact">Order Now!</a>
             </div>
@@ -361,7 +394,7 @@
                   <div class="padding">
                     <p class="black-text">Info:</p>
                     <p class="gray-text">Lets Closer</p>
-                    <h2 class="about-title">Leave Message</h2>
+                    <h2 class="about-title">Book an Appointment</h2>
                   </div>
                 </div>
                 <div class="col-md-8">
@@ -468,7 +501,7 @@
         <div class="white-bg clearfix">
           <ul class="nav margin align-right nav-tabs">
             <li class="active">
-              <a href="#message-us" data-toggle="tab">Leave Message</a>
+              <a href="#message-us" data-toggle="tab">Book an Appointment</a>
             </li>
             <li><a href="#office" data-toggle="tab">Our Office</a></li>
           </ul>
@@ -544,5 +577,48 @@
     <script type="text/javascript" src="js/ticker.js"></script>
     <script type="text/javascript" src="js/jquery.easing.js"></script>
     <script type="text/javascript" src="js/jquery.BlackAndWhite.min.js"></script>
+
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: #25d366;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+      }
+      .whatsapp-float:hover {
+        transform: scale(1.1);
+      }
+      
+      .whatsapp-float img{
+        height: 36px;
+        width: 36px;
+      }
+      .whatsapp-float a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whatsapp-float a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+      }
+    </style>
+
+    <div class="whatsapp-float">
+      <a href="https://wa.me/447448592240" target="_blank" title="Chat with us on WhatsApp">
+        <img src="./images/whatsapp.png" alt="Whatsapp">
+      </a>
+    </div>
+
   </body>
 </html>

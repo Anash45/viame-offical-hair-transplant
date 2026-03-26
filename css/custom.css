@@ -1391,6 +1391,24 @@ details ul{
 	display: block;
 }
 
+.about-title{
+	font-size: 36px;
+}
+
+.journey-card{
+	margin-bottom: 0;
+	height: 100%;
+}
+
+#portfolio .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#portfolio .row> div{
+	padding-bottom: 24px;
+}
+
 @media (max-width: 991px) {
 	.pricing-grid-2 .pricing-col,
 	.contact-page .contact-col {

@@ -209,5 +209,5 @@ BV.init();
 if (Modernizr.touch) {
     BV.show('images/slider1.jpg');
 } else {
-    BV.show('./video/brittany.mp4',{ambient:true});
+    BV.show('./video/new-video-1.mp4',{ambient:true});
 }
