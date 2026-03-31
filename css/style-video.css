@@ -141,7 +141,7 @@ blockquote small {
 	-ms-transition: ease .3s;
 }
 .is-sticky .header {
-	background: #000;
+	background: #587887;
 }
 .navigation {
 	list-style: none;
@@ -163,10 +163,33 @@ blockquote small {
 	letter-spacing: 1px;
 	padding: 15px;
 	text-transform: uppercase;
+	position: relative;
 }
-.navigation li a:hover, .navigation .current a {
-	color: inherit;
+
+.navigation li a::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	width: 0%;
+	height: 2px;
+	background-color: #fff;
+	transition: width 0.3s ease;
+	-webkit-transition: width 0.3s ease;
+	-moz-transition: width 0.3s ease;
+	-o-transition: width 0.3s ease;
+	-ms-transition: width 0.3s ease;
+
 }
+
+.navigation li a:hover::after, .navigation .current a::after{
+	width: calc(100% - 30px);
+}
+
+.navigation .current a{
+	font-weight: 600;
+}
+
 .menu-btn {
 	background: none repeat scroll 0 0 #888888;
 	border-radius: 50px;
