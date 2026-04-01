@@ -1456,3 +1456,21 @@ details ul{
 		font-size: 26px;
 	}
 }
+
+@media (max-width: 979px) {
+	.nav-collapse{
+		top: 110px !important;
+		background-color: #587887 !important;
+	}
+
+	.header{
+		height: unset !important;
+	}
+	.menu-btn{
+		margin-top: 10px;
+	}
+}
+
+.footer-links li, .footer-contact li a{
+	color: #d9d9d9;
+}
