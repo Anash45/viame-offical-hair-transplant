@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>Science - Official Hair Clinic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The science behind hair loss, stress-related shedding, and restoration options at Official Hair Clinic."
+    />
+    <meta name="author" content />
+
+    <style>
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 999999;
+      }
+
+      #status {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-image: url(images/icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -100px 0 0 -100px;
+      }
+
+      #status p {
+        text-align: center;
+      }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/383424c9ed.js" crossorigin="anonymous"></script>
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/supersized.css" rel="stylesheet" />
+    <link href="css/supersized.shutter.css" rel="stylesheet" />
+    <link href="css/style-video.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.5" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin,cyrillic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="images/icon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="images/icon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="images/icon.png"
+    />
+    <link rel="apple-touch-icon-precomposed" href="images/icon.png" />
+    <link rel="shortcut icon" href="images/icon.png" />
+  </head>
+
+  <body class="inner-page science-page">
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    <section id="home" class="clearfix">
+      <div class="header clearfix">
+        <div class="top-contact-bar">
+          <div class="container">
+            <div class="top-contact-inner">
+              <a href="tel:02088390083" aria-label="Call Official Hair Clinic">
+                <i class="fa fa-phone"></i>
+                <span>0208 839 0083</span>
+              </a>
+              <a href="mailto:info@officialhairclinic.com" aria-label="Email Official Hair Clinic">
+                <i class="fa fa-envelope"></i>
+                <span>info@officialhairclinic.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row header-row">
+            <div class="col-md-4 col-xs-6">
+              <a class="logo" href="index.html"
+                ><img loading="lazy"  alt="logo" src="images/logo.png"
+              /></a>
+            </div>
+            <div class="col-md-8">
+              <div
+                class="menu-btn"
+                data-target=".nav-collapse"
+                data-toggle="collapse"
+              >
+                <span class="fa fa-th"></span>
+              </div>
+              <ul class="navigation nav-collapse">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li class="current"><a href="science.html">Science</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <a class="header-call-desktop" href="tel:02088390083" aria-label="Call Official Hair Clinic">
+                <i class="fa fa-phone"></i>
+                <span>0208 839 0083</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="container science-hero-wrap">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>Official Hair Clinic - The Science Behind Hair Loss</h3>
+            <p>Understand why hair loss happens and how expert treatment supports healthy regrowth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="science-intro" class="clearfix content">
+      <div class="container">
+        <div class="science-grid science-grid-2 clearfix">
+          <div class="science-col">
+            <div class="white-bg padding science-block">
+              <h2>Understanding the Link Between Stress and Hair Loss</h2>
+              <p>
+                Hair loss is often a sign of an underlying issue and stress is
+                a common but sometimes overlooked cause. At Official Hair Clinic, we
+                help identify stress-related hair loss including telogen
+                effluvium and provide personalised treatments to restore healthy
+                hair growth.
+              </p>
+              <p>Contact us to begin your hair restoration journey today.</p>
+              <a class="view-more" href="#contact">Contact Us</a>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg science-image-wrap">
+              <img loading="lazy" 
+                src="./uploads/2025/09/hairloss-stress-1024x678.png"
+                alt="Stress and hair loss"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="science-causes" class="clearfix content">
+      <div class="container">
+        <div class="science-grid science-grid-2 clearfix">
+          <div class="science-col">
+            <div class="white-bg padding science-block">
+              <h2>How Stress Causes Hair Loss: The Science Behind It</h2>
+              <p>
+                Stress can disrupt the natural hair growth cycle, causing
+                noticeable shedding. Understanding this connection can help you
+                manage and restore healthy hair growth.
+              </p>
+              <a class="view-more" href="#contact">Contact Us</a>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-block">
+              <h3>The Link Between Stress and Telogen Effluvium</h3>
+              <p>
+                Telogen effluvium is the most common form of stress-induced hair
+                loss. It occurs when physical or emotional stress causes hair
+                follicles to enter the resting phase, resulting in noticeable
+                hair shedding. This type of hair loss is usually temporary, and
+                hair regrowth is possible with the right approach.
+              </p>
+              <h3>The Role of Hormones: Stress and Cortisol</h3>
+              <p>
+                Stress elevates cortisol levels, which can disrupt the balance
+                of other hormones. This hormonal imbalance may lead to thinning
+                hair and hinder healthy regrowth. Addressing stress and hormonal
+                issues is key to restoring hair health.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <div class="clearfix"></div>
+      <div class="container about-hero-wrap">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="about-hero-copy">
+              <h4>Doctor-Led Hair Restoration from Consultation to Results</h4>
+              <h1>Book a consultation</h1>
+              <p>
+                At Official Hair Clinic, your hair transplant journey is guided by
+                experienced medical professionals every step of the way. From
+                your first consultation to your final results, you are in the
+                care of GMC-registered doctors and qualified nurses
+                specialising in advanced FUE hair restoration techniques.
+              </p>
+              <ul class="about-hero-list">
+                <li>5,000+ successful hair transplants</li>
+                <li>10 years experience as a medical professional</li>
+                <li>Specialists in advanced hair transplant techniques</li>
+              </ul>
+              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="about-hero-image white-bg">
+              <img loading="lazy" 
+                src="./uploads/2025/04/city_clinics_our-team-839x1024.jpg"
+                alt="Official Hair Clinic hair transplant team"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section id="science-process" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <p>Process of Male Pattern Baldness</p>
+            <h3>Progression of Male Hair Loss</h3>
+          </div>
+        </div>
+
+        <div class="science-grid science-grid-3 clearfix">
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>1. Temporal Recession</h4>
+              <p>
+                Hair begins to retreat around the frontal hairline and temple
+                zones, often forming a sharper angle or a pronounced V shape.
+              </p>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>2. Crown Thinning</h4>
+              <p>
+                Hair density decreases in the crown or vertex area. This can
+                occur in isolation or alongside frontal recession.
+              </p>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>3. Patchy or Generalised Thinning</h4>
+              <p>
+                Hair may shed in isolated spots that follow a recognisable
+                pattern, gradually merging as the condition progresses.
+              </p>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>4. Noticeable Pattern Loss</h4>
+              <p>
+                Significant thinning is visible across the top of the scalp,
+                including the crown, with sparse strands and less coverage.
+              </p>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>5. Advanced Hair Loss</h4>
+              <p>
+                Most hair across the top is absent, typically leaving a
+                horseshoe-shaped band around the sides and back.
+              </p>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg padding science-stage">
+              <h4>6. Total Baldness</h4>
+              <p>
+                Hair is fully absent from the crown and upper scalp, and the
+                remaining fringe can also appear thin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="science-cta" class="clearfix content">
+      <div class="container">
+        <div class="science-grid science-grid-2 clearfix">
+          <div class="science-col">
+            <div class="white-bg padding science-block">
+              <h2>Reclaim your hair and confidence with expert help</h2>
+              <p>
+                Do not let stress take control of your life or your hairline.
+                At Official Hair Clinic, we offer personalised solutions for
+                stress-induced hair loss, including advanced FUE hair
+                transplants and professional stress management support.
+              </p>
+              <p>
+                Book your consultation today and take the first step toward
+                stronger, healthier hair and a more confident you.
+              </p>
+              <a class="view-more" href="#contact">Contact Us</a>
+            </div>
+          </div>
+          <div class="science-col">
+            <div class="white-bg science-image-wrap">
+              <img loading="lazy" 
+                src="./uploads/2025/09/Half-Price-Carousel-11-1024x1024.jpg"
+                alt="Hair confidence"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="science-faq" class="clearfix content">
+      <div class="container">
+        <div class="science-faq-grid clearfix">
+          <div class="science-faq-nav-col">
+            <div class="white-bg padding science-faq-nav">
+              <h3>Frequently Asked Questions (FAQ)</h3>
+            </div>
+          </div>
+          <div class="science-faq-content-col">
+            <div class="white-bg padding science-faq-content">
+              <h3 id="q1">What is telogen effluvium?</h3>
+              <p>
+                It is a condition where stress causes a significant number of
+                hair follicles to enter the resting phase at once, leading to
+                diffuse hair shedding.
+              </p>
+
+              <h3 id="q2">Can stress cause permanent hair loss?</h3>
+              <p>
+                In most cases, stress-related hair loss is temporary. However,
+                stress can sometimes trigger conditions like alopecia areata,
+                an autoimmune disorder where the immune system attacks hair
+                follicles.
+              </p>
+              <p>
+                While there is no cure, some treatments aim to modulate the
+                immune response and promote hair regrowth.
+              </p>
+
+              <h3 id="q3">How do I know if my hair loss is due to stress?</h3>
+              <p>
+                If your hair loss began after a stressful event and involves
+                noticeable shedding, stress may be the cause. A consultation at
+                Official Hair Clinic can confirm this and guide your treatment.
+              </p>
+
+              <h3 id="q4">What treatments are available?</h3>
+              <p>
+                We offer FUE hair transplants, scalp care solutions, and stress
+                management strategies to address both the cause and the
+                symptoms of hair loss.
+              </p>
+
+              <h3 id="q5">How long before I see results?</h3>
+              <p>
+                You can expect to see initial hair regrowth within 3 to 4
+                months, with full results typically visible between 9 and 12
+                months.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>Ready to Reclaim Your Confidence?</h3>
+            <p>Schedule your personalized consultation with our expert hair restoration specialists today</p>
+          </div>
+        </div>
+
+        <div class="tab-content white-bg">
+          <div class="tab-pane fade in active" id="message-us">
+            <img loading="lazy"  src="images/contact/1.png" alt="contact" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <h2 class="about-title">Book an Appointment</h2>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="padding">
+                    <div id="form-wrapper">
+                      <div id="form-inner">
+                        <div id="ErrResults"></div>
+                        <div id="MainResult"></div>
+                        <div id="MainContent">
+                          <div class="powr-form-builder" id="fa51b415_1774879218"></div><script src="https://www.powr.io/powr.js?platform=wordpress"></script>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="spacing40 clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="office">
+            <div id="map_canvas"></div>
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">Info:</p>
+                    <p class="gray-text">Basecamp</p>
+                    <h2 class="about-title">Our Office</h2>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Our hair transplant clinic operates from prestigious locations on
+                      Harley Street, London, and in Sheffield, providing patients across the UK with
+                      access to world-class hair restoration surgery.
+                    </p>
+
+                    <ul class="address-list">
+                      <li><i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX</li>
+                      <li><i class="fa fa-phone"></i> 0208 839 0083</li>
+                      <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>
+                      <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:info@officialhairclinic.com">info@officialhairclinic.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="spacing40 clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="white-bg clearfix">
+          <ul class="nav margin align-right nav-tabs">
+            <li class="active">
+              <a href="#message-us" data-toggle="tab">Book an Appointment</a>
+            </li>
+            <li><a href="#office" data-toggle="tab">Our Office</a></li>
+          </ul>
+        </div>
+        <div class="spacing40 clearfix"></div>
+      </div>
+    </section>
+
+    <section class="footer site-footer clearfix">
+      <div class="container">
+        <div class="row footer-main">
+          <div class="col-sm-12 col-md-3">
+            <a class="footer-logo" href="#home">
+              <img loading="lazy"  src="images/logo.png" alt="Official Hair Clinic logo" />
+            </a>
+            <p class="footer-description">
+              Official Hair Clinic provides modern, natural-looking hair
+              restoration with expert-led planning, advanced techniques, and
+              patient-first care.
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#science-intro">Science</a></li>
+              <li><a href="#science-process">Process</a></li>
+              <li><a href="#science-faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h4>Contact Details</h4>
+            <ul class="footer-contact">
+              <li><i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX</li>
+              <li><i class="fa fa-phone"></i> 0208 839 0083</li>
+              <li><i class="fa fa-envelope"></i> info@officialhairclinic.com</li>
+              <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h4>Follow Us</h4>
+            <ul class="team-social">
+              <li><a href="https://www.instagram.com/officialhairclinic" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/officialhairclinic" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.tiktok.com/@officialhairclinic" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright 2026 Official Hair Clinic. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+      $(window).load(function () {
+        $("#status").fadeOut(300);
+        $("#preloader").delay(500).fadeOut("slow");
+      });
+    </script>
+    <script src="js/modernizr.custom.26589.js"></script>
+    <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="twitter/jquery.tweet.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script
+      type="text/javascript"
+      src="https://maps.google.com/maps/api/js?sensor=true"
+    ></script>
+    <script type="text/javascript" src="js/jquery.ui.map.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/ticker.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/jquery.BlackAndWhite.min.js"></script>
+
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: #25d366;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+      }
+      .whatsapp-float:hover {
+        transform: scale(1.1);
+      }
+      
+      .whatsapp-float img{
+        height: 36px;
+        width: 36px;
+      }
+      .whatsapp-float a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whatsapp-float a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+      }
+    </style>
+
+    <div class="whatsapp-float">
+      <a href="https://wa.me/442088390083" target="_blank" title="Chat with us on WhatsApp">
+        <img loading="lazy"  src="./images/whatsapp.png" alt="Whatsapp">
+      </a>
+    </div>
+
+  </body>
+</html>

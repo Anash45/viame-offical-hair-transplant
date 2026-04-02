@@ -41,7 +41,7 @@
     <link href="css/supersized.css" rel="stylesheet" />
     <link href="css/supersized.shutter.css" rel="stylesheet" />
     <link href="css/style-video.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/custom.css?ver=1.2" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.5" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -82,6 +82,20 @@
 
     <section id="home" class="clearfix">
       <div class="header clearfix">
+        <div class="top-contact-bar">
+          <div class="container">
+            <div class="top-contact-inner">
+              <a href="tel:02088390083" aria-label="Call Official Hair Clinic">
+                <i class="fa fa-phone"></i>
+                <span>0208 839 0083</span>
+              </a>
+              <a href="mailto:info@officialhairclinic.com" aria-label="Email Official Hair Clinic">
+                <i class="fa fa-envelope"></i>
+                <span>info@officialhairclinic.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
         <div class="container">
           <div class="row header-row">
             <div class="col-md-4 col-xs-6">
@@ -105,6 +119,10 @@
                 <li><a href="pricing.html">Pricing</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
+              <a class="header-call-desktop" href="tel:02088390083" aria-label="Call Official Hair Clinic">
+                <i class="fa fa-phone"></i>
+                <span>0208 839 0083</span>
+              </a>
             </div>
           </div>
         </div>
@@ -129,7 +147,7 @@
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -233,7 +251,7 @@
                 Surgeons and an associate member of ISHRS, he adheres to high
                 standards of safety, ethics, and professionalism.
               </p>
-              <a class="view-more" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -474,8 +492,8 @@
       <div class="container">
         <div class="title-content clearfix">
           <div class="title-inner">
-            <h3>Our Contact</h3>
-            <p>Start communicate with us</p>
+            <h3>Ready to Reclaim Your Confidence?</h3>
+            <p>Schedule your personalized consultation with our expert hair restoration specialists today</p>
           </div>
         </div>
 

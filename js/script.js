@@ -32,7 +32,7 @@ jQuery(function ($) {
 //sticky navigation
 $(document).ready(function () {
     $(".header").sticky({
-        topSpacing: 0
+        topSpacing: 1
     });
 });
 

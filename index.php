@@ -1,0 +1,874 @@
+<?php
+$pageTitle = 'Official Hair Clinic';
+$metaDescription = '';
+$bodyClass = '';
+$currentPage = 'home';
+$useVideoScripts = true;
+$footerQuickLinks = [
+    ['href' => '#home', 'label' => 'Home'],
+    ['href' => '#portfolio', 'label' => 'Process'],
+    ['href' => '#about', 'label' => 'Mission'],
+    ['href' => '#services', 'label' => 'Services'],
+    ['href' => '#contact', 'label' => 'Contact'],
+];
+
+include __DIR__ . '/includes/head.php';
+include __DIR__ . '/includes/header.php';
+?>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="slider-content clearfix">
+              <div class="title-caption">
+                <h4>OFFICIAL HAIR CLINIC</h4>
+              </div>
+              <div id="slidecaption">
+                <h2>
+                  Transplants from the UK’s most innovative hair loss clinic.
+                </h2>
+              </div>
+              <!--/slidecaption-->
+              <div class="centering">
+                <div id="progress-back">
+                  <div id="progress-bar"></div>
+                </div>
+                <!--/progress-back-->
+              </div>
+              <!--/.centering-->
+            </div>
+            <!--/.slider-content-->
+          </div>
+          <!--/.col-md-6-->
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/home-->
+
+    <!--PORTFOLIO SECTION START-->
+    <section id="portfolio" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>The Hair Restoration Process</h3>
+            <p>
+              Transparency and comfort guide your hair restoration journey at
+              Official Hair Clinic.
+            </p>
+          </div>
+          <!--/.title-inner-->
+        </div>
+        <!--/.title-content-->
+
+        <div class="row">
+          <!--PORTFOLIO ITEM START-->
+          <div class="col-md-6 port-item">
+            <div class="port-inner white-bg clearfix">
+              <div class="box-40 hovers bwWrapper">
+                <img loading="lazy"  alt="Portfolio" src="./images/process1.jpg" />
+              </div>
+              <div class="padding box-60">
+                <h3>1. Surgeon consultation</h3>
+                <p>
+                  Book a one-on-one consultation with your dedicated hair
+                  restoration specialist to create a personalised treatment
+                  plan.
+                </p>
+              </div>
+              <!--/.padding-->
+            </div>
+            <!--/.port-inner-->
+          </div>
+          <!--/.col-md-6-->
+
+          <div class="col-md-6 port-item">
+            <div class="port-inner white-bg clearfix">
+              <div class="box-40 ho vers bwWrapper">
+                <img loading="lazy"  alt="Portfolio" src="./images/process2.png" />
+              </div>
+              <div class="padding box-60">
+                <h3>2. Day of surgery</h3>
+                <p>
+                  Your procedure will be carried out in one of our cutting-edge
+                  clinics, where your dedicated surgeon and clinical team will
+                  greet you and guide you through every step with care and
+                  expertise.
+                </p>
+              </div>
+              <!--/.padding-->
+            </div>
+            <!--/.port-inner-->
+          </div>
+          <!--/.col-md-6-->
+
+          <div class="col-md-6 port-item">
+            <div class="port-inner white-bg clearfix">
+              <div class="box-40 hovers bwWrapper">
+                <img loading="lazy"  alt="Portfolio" src="./images/procss3.webp" />
+              </div>
+              <div class="padding box-60">
+                <h3>3. Aftercare</h3>
+                <p>
+                  You’ll receive all necessary medications and tailored
+                  aftercare to support a smooth recovery and ensure the best
+                  possible outcome from your procedure.
+                </p>
+              </div>
+              <!--/.padding-->
+            </div>
+            <!--/.port-inner-->
+          </div>
+          <!--/.col-md-6-->
+
+          <!--PORTFOLIO ITEM END-->
+        </div>
+        <!--/.row-->
+
+
+        <div class="clearfix"></div>
+        <div class="container about-hero-wrap">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="about-hero-copy">
+                <h4>Doctor-Led Hair Restoration from Consultation to Results</h4>
+                <h1>Book a consultation</h1>
+                <p>
+                  At Official Hair Clinic, your hair transplant journey is guided by
+                  experienced medical professionals every step of the way. From
+                  your first consultation to your final results, you are in the
+                  care of GMC-registered doctors and qualified nurses
+                  specialising in advanced FUE hair restoration techniques.
+                </p>
+                <ul class="about-hero-list">
+                  <li>5,000+ successful hair transplants</li>
+                  <li>10 years experience as a medical professional</li>
+                  <li>Specialists in advanced hair transplant techniques</li>
+                </ul>
+                <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="about-hero-image white-bg">
+                <img loading="lazy" 
+                  src="./uploads/2025/04/city_clinics_our-team-839x1024.jpg"
+                  alt="Official Hair Clinic hair transplant team"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spacing40 clearfix"></div>
+        <div class="title-content clearfix pt-10">
+          <div class="title-inner">
+            <h3>Successful Results</h3>
+            <p>
+              Over 5,000 successful hair transplants performed by our lead
+              surgeon.
+            </p>
+          </div>
+          <!--/.title-inner-->
+        </div>
+        <!--/.title-content-->
+        <!--TEAM LIST START-->
+        <div class="row" id="team">
+          <div class="col-md-4">
+            <div>
+              <img loading="lazy"  src="./images/before_after1.png" alt="team" />
+            </div>
+            <div class="clearfix team-inner white-bg padding">
+              <div class="result-text">
+                <p>
+                  <span class="result-label">Procedure:</span
+                  ><span class="result-value">FUE hair transplant</span>
+                </p>
+                <p>
+                  <span class="result-label">Grafts:</span
+                  ><span class="result-value">1803</span>
+                </p>
+                <p>
+                  <span class="result-label">Time post transplant:</span
+                  ><span class="result-value">12 Months</span>
+                </p>
+              </div>
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.col-md4-->
+
+          <div class="col-md-4">
+            <div>
+              <img loading="lazy"  src="./images/before_after2.png" alt="team" />
+            </div>
+            <div class="clearfix team-inner white-bg padding">
+              <div class="result-text">
+                <p>
+                  <span class="result-label">Procedure:</span
+                  ><span class="result-value">FUE hair transplant</span>
+                </p>
+                <p>
+                  <span class="result-label">Grafts:</span
+                  ><span class="result-value">2564</span>
+                </p>
+                <p>
+                  <span class="result-label">Time post transplant:</span
+                  ><span class="result-value">12 Months</span>
+                </p>
+              </div>
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.col-md4-->
+
+          <div class="col-md-4">
+            <div>
+              <img loading="lazy"  src="./images/before_after3.png" alt="team" />
+            </div>
+            <div class="clearfix team-inner white-bg padding">
+              <div class="result-text">
+                <p>
+                  <span class="result-label">Procedure:</span
+                  ><span class="result-value">FUE hair transplant</span>
+                </p>
+                <p>
+                  <span class="result-label">Grafts:</span
+                  ><span class="result-value">2704</span>
+                </p>
+                <p>
+                  <span class="result-label">Time post transplant:</span
+                  ><span class="result-value">12 Months</span>
+                </p>
+              </div>
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.col-md4-->
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/portfolio-->
+    <!--PORTFOLIO SECTION END-->
+
+    <!--TEXT WITH DARK BG START-->
+    <section class="bg-dark bg1">
+      <div class="dark-mask"></div>
+      <div class="container align-center">
+        <h2 class="slogan">
+          Bring back your youthful look and confidence with safe, modern, and
+          natural hair transplant treatments.
+        </h2>
+        <div class="slogan-divider">
+          <span class="line-left"></span><span class="fa fa-quote-left"></span
+          ><span class="line-right"></span>
+        </div>
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/.bg-dark-->
+    <!--TEXT WITH DARK BG END-->
+
+    <!--ABOUT SECTION START-->
+    <section id="about" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>Our Mission</h3>
+            <p>World-class, innovative hair transplant</p>
+          </div>
+          <!--/.title-inner-->
+        </div>
+        <!--/.title-content-->
+
+        <!--ABOUT TAB START-->
+        <div class="tab-content white-bg">
+          <!--TAB CONTENT START-->
+          <div class="tab-pane active fade in active" id="history">
+            <img loading="lazy"  src="images/trans3.jpg" alt="about" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">0.1</p>
+                    <p class="gray-text">Mission</p>
+                    <h2 class="about-title">Our Mission</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Our mission is to deliver world-class, innovative hair
+                      transplant and restoration services in London’s Harley
+                      Street and Sheffield at affordable prices, thus making
+                      Official Hair Clinic a household name.
+                    </p>
+                    <p>
+                      We are committed to providing a seamless patient journey,
+                      driven by a leading medical team and the most advanced
+                      tools and technologies available.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade" id="profile">
+            <img loading="lazy"  src="images/about/2.jpg" alt="about" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">0.2</p>
+                    <p class="gray-text">Treatment</p>
+                    <h2 class="about-title">Provide Advanced Treatment</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Our mission is to provide modern and advanced hair
+                      transplant treatments. We use the latest medical
+                      technology and proven techniques in hair restoration. Our
+                      specialists stay updated with new methods to deliver the
+                      best results. We focus on safe procedures that ensure
+                      long-term hair growth.
+                    </p>
+                    <p>
+                      Every treatment is carefully planned to achieve natural
+                      and balanced hairlines. Our clinic maintains high medical
+                      standards and professional practices. We believe
+                      innovation and expertise are key to successful hair
+                      restoration. Our aim is to provide reliable and advanced
+                      solutions for hair loss.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade" id="achievement">
+            <img loading="lazy"  src="images/sati.jpg" alt="about" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">0.3</p>
+                    <p class="gray-text">Satisfaction</p>
+                    <h2 class="about-title">Ensure Patient Satisfaction</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Patient satisfaction is at the heart of everything we do.
+                      We provide personalized consultations to understand every
+                      patient’s concerns. Our team guides patients through every
+                      step of the treatment process. We focus on comfort,
+                      safety, and transparency during all procedures. After the
+                      transplant, we offer complete follow-up care and support.
+                      We listen carefully to our patients and respect their
+                      expectations. Our goal is to build long-term trust with
+                      every patient we treat. We work hard to ensure every
+                      patient leaves satisfied and confident.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+        </div>
+        <!--/.tab-content-->
+        <!--ABOUT TAB END-->
+
+        <!--ABOUT TAB NAVIGATION START-->
+        <div class="white-bg clearfix">
+          <ul class="nav margin align-right nav-tabs">
+            <li class="active">
+              <a href="#history" data-toggle="tab">Mission</a>
+            </li>
+            <li><a href="#profile" data-toggle="tab">Treatment</a></li>
+            <li><a href="#achievement" data-toggle="tab">Satisfaction</a></li>
+          </ul>
+        </div>
+        <!--ABOUT TAB NAVIGATION END-->
+
+        <!--TEAM LIST END-->
+
+        <div class="spacing40 clearfix"></div>
+
+        <!--AJAX TEAM WILL SHOW HERE-->
+        <div id="teamlist">
+          <div class="clearfix teamajax"></div>
+        </div>
+        <!--AJAX TEAM END-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/about-->
+    <!--ABOUT SECTION END-->
+
+    <!--TESTIMONIAL WITH DARK BG START-->
+    <section class="bg-dark bg2">
+      <div class="dark-mask"></div>
+      <div class="container align-center">
+        <ul class="testimonial">
+          <li>
+            <h2 class="slogan">
+              Working with hair every day made his own hair loss even harder to
+              face. Here’s how George confronted his fears and regained
+              confidence after his procedure at Official Hair Clinic.
+            </h2>
+            <div class="slogan-divider">
+              <span class="line-left"></span>
+              <img loading="lazy" 
+                class="testi-img"
+                src="images/testimonial/1.jpg"
+                alt="testi"
+              />
+              <span class="line-right"></span>
+            </div>
+            <h3 class="author-slogan">George, Professional Hairdresser</h3>
+          </li>
+
+          <li>
+            <h2 class="slogan">
+              Noticing the first signs of hair loss at just 18, Lewis decided
+              not to wait. His journey shows how early treatment can make all
+              the difference.
+            </h2>
+            <div class="slogan-divider">
+              <span class="line-left"></span>
+              <img loading="lazy" 
+                class="testi-img"
+                src="images/testimonial/2.jpg"
+                alt="testi"
+              />
+              <span class="line-right"></span>
+            </div>
+            <h3 class="author-slogan">Lewis, Manager from Manchester</h3>
+          </li>
+
+          <li>
+            <h2 class="slogan">
+              Growing up aware of her changing hairline and dealing with teasing
+              wasn’t easy. Santi’s story is one of quiet determination and the
+              confidence that comes from finally taking care of yourself.
+            </h2>
+            <div class="slogan-divider">
+              <span class="line-left"></span
+              ><img loading="lazy" 
+                class="testi-img"
+                src="images/testimonial/3.jpg"
+                alt="testi"
+              />
+              <span class="line-right"></span>
+            </div>
+            <h3 class="author-slogan">Santi's Story</h3>
+          </li>
+        </ul>
+        <!--/.testimonial-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/.bg-dark-->
+    <!--TESTIMONIAL WITH DARK BG END-->
+
+    <!--SERVICES SECTION START-->
+    <section id="services" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>Our Services</h3>
+            <p>What we really can provide</p>
+          </div>
+          <!--/.title-inner-->
+        </div>
+        <!--/.title-content-->
+
+        <!--SERVICES TAB START-->
+        <div class="tab-content white-bg">
+          <!--TAB CONTENT START-->
+          <div class="tab-pane active fade in active" id="web-design">
+            <img loading="lazy"  src="images/trans1.jpg" alt="services" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">Technic:</p>
+                    <p class="gray-text">AI</p>
+                    <h2 class="about-title">AI Precision</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      We are the only clinic in the UK—and the second in the
+                      world—using the revolutionary KE-Bot, an advanced robotic
+                      precision system designed to enhance every stage of your
+                      FUE hair transplant.
+                    </p>
+                    <p>
+                      Every client undergoing a procedure with us will have the
+                      exclusive opportunity to benefit from this cutting-edge
+                      technology. The KE-Bot is a state-of-the-art 360-degree
+                      scanning system that utilizes high-definition photography
+                      to create an ultra-precise 3D model of your scalp. By
+                      analyzing each hair’s caliber, density, and overall donor
+                      capacity from every angle, it enables our surgeons to make
+                      highly accurate extraction site calculations while
+                      minimizing potential graft damage.
+                    </p>
+                    <p>
+                      This intelligent system also calculates the Coverage Value
+                      to ensure balanced distribution, optimal density, and
+                      long-term natural results without overharvesting. By
+                      considering future hair loss patterns, the KE-Bot helps us
+                      deliver exceptionally precise, personalized transplants
+                      with unmatched consistency and accuracy.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade" id="web-develop">
+            <img loading="lazy"  src="images/prp.jpg" alt="services" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">Technic:</p>
+                    <p class="gray-text">PRP</p>
+                    <h2 class="about-title">PRP Hair Treatment</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Platelet-Rich Plasma (PRP) therapy is a non-surgical
+                      treatment that uses the patient’s own blood to stimulate
+                      hair growth. PRP strengthens hair follicles, improves hair
+                      thickness, and helps reduce hair loss.
+                    </p>
+                    <p>
+                      Hairline design is an important step before a hair
+                      transplant. Specialists carefully design a natural and
+                      age-appropriate hairline that enhances facial balance and
+                      ensures the best possible aesthetic result.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade" id="brand-identity">
+            <img loading="lazy"  src="images/hair.jpg" alt="services" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">Technic:</p>
+                    <p class="gray-text">Hair Loss</p>
+                    <h2 class="about-title">Hair Loss Consultation</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Our experts provide a detailed consultation to evaluate
+                      your hair loss condition, scalp health, and treatment
+                      options. We create a personalized plan to achieve the best
+                      results for every patient.
+                    </p>
+                    <p>
+                      Post-transplant care is essential for successful hair
+                      growth. We provide complete guidance, medications, and
+                      follow-up sessions to ensure proper healing and long-term
+                      results.
+                    </p>
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT START-->
+        </div>
+        <!--/.tab-content-->
+        <!--SERVICES TAB END-->
+
+        <!--SERVICES NAVIGATION TAB START-->
+        <div class="white-bg clearfix">
+          <ul class="nav margin align-right nav-tabs">
+            <li class="active">
+              <a href="#web-design" data-toggle="tab">AI</a>
+            </li>
+            <li><a href="#web-develop" data-toggle="tab">PRP</a></li>
+            <li><a href="#brand-identity" data-toggle="tab">Hair Loss</a></li>
+          </ul>
+        </div>
+        <!--SERVICES NAVIGATION TAB END-->
+
+        <div class="spacing40 clearfix"></div>
+
+        <!--PRICING TABLE START-->
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="padding align-center white-bg pricing-table">
+              <h3>Small Transplant</h3>
+              <i class="price-icon fa fa-bug"></i>
+              <p>Grafts &lt;499</p>
+              <p>Suitable for minimal hair loss.</p>
+              <p><strong>£2,999.99</strong></p>
+              <p class="price">£250 per month / 12 months</p>
+
+              <div class="spacing40 mt-auto"></div>
+              <a class="view-more" href="#contact">Order Now!</a>
+            </div>
+            <!--/.pricing-table-->
+          </div>
+          <!--/col-sm-3-->
+
+          <div class="col-sm-6 col-md-3">
+            <div class="padding align-center white-bg pricing-table">
+              <h3>Medium Transplant</h3>
+              <i class="price-icon fa fa-wheelchair"></i>
+              <p>Grafts 500 - 999</p>
+              <p>Suitable for moderate hair loss.</p>
+              <p><strong>£3,999.99</strong></p>
+              <p class="price">£333 per month / 12 months</p>
+              <div class="spacing40 mt-auto"></div>
+              <a class="view-more" href="#contact">Order Now!</a>
+            </div>
+            <!--/.pricing-table-->
+          </div>
+          <!--/col-sm-3-->
+
+          <div class="col-sm-6 col-md-3">
+            <div class="padding align-center white-bg pricing-table special">
+              <h3>Large Transplant</h3>
+              <i class="price-icon fa fa-bolt"></i>
+              <p>Grafts 1,000 - 1,999</p>
+              <p>Suitable for high hair loss.</p>
+              <p><strong>£5,999.99</strong></p>
+              <p class="price">£499 per month / 12 months</p>
+              <div class="spacing40 mt-auto"></div>
+              <a class="view-more" href="#contact">Order Now!</a>
+            </div>
+            <!--/.pricing-table-->
+          </div>
+          <!--/col-sm-3-->
+
+          <div class="col-sm-6 col-md-3">
+            <div class="padding align-center white-bg pricing-table">
+              <h3>Mega Transplant <br>Luxury Package</h3>
+              <i class="price-icon fa fa-flask"></i>
+              <p>3000+ Grafts</p>
+              <p>Includes Cars and Hotel</p>
+              <p>Suitable for extensive hair loss.</p>
+              <p><strong>£12,500</strong></p>
+              <p class="price">£1,042 per month / 12 months</p>
+              <div class="spacing40 mt-auto"></div>
+              <a class="view-more" href="#contact">Order Now!</a>
+            </div>
+          </div>
+          <!--/col-sm-3-->
+        </div>
+        <!--/.row-->
+        <!--PRICING TABLE END-->
+      </div>
+      <!--/.container-->
+      <div class="spacing40 clearfix"></div>
+    </section>
+    <!--services-->
+    <!--SERVICES SECTION START-->
+
+
+    <!--CONTACT SECTION START-->
+    <section id="contact" class="clearfix content">
+      <div class="container">
+        <div class="title-content clearfix">
+          <div class="title-inner">
+            <h3>Ready to Reclaim Your Confidence?</h3>
+            <p>Schedule your personalized consultation with our expert hair restoration specialists today</p>
+          </div>
+          <!--/.title-inner-->
+        </div>
+        <!--/.title-content-->
+
+        <!--CONTACT TAB START-->
+        <div class="tab-content white-bg">
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade in active" id="message-us">
+            <img loading="lazy"  src="images/contact/1.png" alt="contact" />
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <h2 class="about-title">Book an Appointment</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <div id="form-wrapper">
+                      <div id="form-inner">
+                        <div id="ErrResults"><!-- retrive Error Here --></div>
+                        <div id="MainResult">
+                          <!-- retrive response Here -->
+                        </div>
+                        <div id="MainContent">
+                          <div class="powr-form-builder" id="fa51b415_1774879218"></div><script src="https://www.powr.io/powr.js?platform=wordpress"></script>
+                        </div>
+                        <!--MainContent-->
+                      </div>
+                      <!--form-inner-->
+                    </div>
+                    <!--form-wrapper-->
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+          <!--TAB CONTENT START-->
+          <div class="tab-pane fade" id="office">
+            <div id="map_canvas"><!--retrive map here--></div>
+            <div class="white-bg clearfix">
+              <div class="row clearfix">
+                <div class="col-md-4">
+                  <div class="padding">
+                    <p class="black-text">Info:</p>
+                    <p class="gray-text">Basecamp</p>
+                    <h2 class="about-title">Our Office</h2>
+                  </div>
+                  <!--/.padding-->
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-8">
+                  <div class="padding">
+                    <p>
+                      Our hair transplant clinic operates from prestigious locations on
+                      Harley Street, London, and in Sheffield, providing patients across the UK with
+                      access to world-class hair restoration surgery. Along the way the
+                      pair visit the Autodromo Nazionale Monza race track and
+                      take to the road in Monaco. The show features a range of
+                      cars including a Ford ModelT, a Ferrari F12 Berlinetta, a
+                      Porsche Cayman S and an Aston Martin Vanquish.
+                    </p>
+
+                    <!--ADDRESS LIST START-->
+                    <ul class="address-list">
+                      <li>
+                        <i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX
+                      </li>
+                      <li><i class="fa fa-phone"></i> 0208 839 0083</li>
+                      <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>
+                      <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:info@officialhairclinic.com">info@officialhairclinic.com</a>
+                      </li>
+                    </ul>
+                    <!--/.address-list-->
+                    <!--ADDRESS LIST END-->
+                  </div>
+                  <!--/.padding-->
+                  <div class="spacing40 clearfix"></div>
+                </div>
+                <!--/col-md-8-->
+              </div>
+              <!--/.row-->
+            </div>
+            <!--/.white-bg-->
+          </div>
+          <!--/.tab-pane-->
+          <!--TAB CONTENT END-->
+        </div>
+        <!--/.tab-content-->
+        <!--CONTACT TAB END-->
+
+        <!--CONTACT NAVIGATION TAB START-->
+        <div class="white-bg clearfix">
+          <ul class="nav margin align-right nav-tabs">
+            <li class="active">
+              <a href="#message-us" data-toggle="tab">Book an Appointment</a>
+            </li>
+            <li><a href="#office" data-toggle="tab">Our Office</a></li>
+          </ul>
+        </div>
+        <div class="spacing40 clearfix"></div>
+        <!--CONTACT NAVIGATION TAB END-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--contact-->
+    <!--CONTACT SECTION END-->
+<?php include __DIR__ . '/includes/footer.php'; ?>
