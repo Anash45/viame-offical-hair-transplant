@@ -33,7 +33,7 @@ $useVideoScripts = $useVideoScripts ?? false;
           <div class="col-sm-6 col-md-3">
             <h4>Contact Details</h4>
             <ul class="footer-contact">
-              <li><i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX</li>
+              <li><i class="fa fa-map-marker"></i> 82 Harley Street, London, W1G 7HN</li>
               <li><i class="fa fa-phone"></i> <a href="tel:02088390083">0208 839 0083</a></li>
               <li><i class="fa fa-envelope"></i> <a href="mailto:info@officialhairclinic.com">info@officialhairclinic.com</a></li>
               <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>

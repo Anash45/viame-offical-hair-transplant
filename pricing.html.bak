@@ -44,7 +44,7 @@
     <link href="css/supersized.css" rel="stylesheet" />
     <link href="css/supersized.shutter.css" rel="stylesheet" />
     <link href="css/style-video.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/custom.css?ver=1.5" />
+    <link rel="stylesheet" href="css/custom.css?ver=1.6" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -405,7 +405,7 @@
 
         <div class="tab-content white-bg">
           <div class="tab-pane fade in active" id="message-us">
-            <img loading="lazy"  src="images/contact/1.png" alt="contact" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6166417220566!2d-0.14985742387166864!3d51.520248809765256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad155bf3951%3A0xee8d83cd9c32e5fe!2s82%20Harley%20St%2C%20London%20W1G%207HN%2C%20UK!5e0!3m2!1sen!2s!4v1775227529949!5m2!1sen!2s" style="border:0; width: 100% !important; height: 450px !important;" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="white-bg clearfix">
               <div class="row clearfix">
                 <div class="col-md-4">
@@ -432,7 +432,7 @@
           </div>
 
           <div class="tab-pane fade" id="office">
-            <div id="map_canvas"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6166417220566!2d-0.14985742387166864!3d51.520248809765256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad155bf3951%3A0xee8d83cd9c32e5fe!2s82%20Harley%20St%2C%20London%20W1G%207HN%2C%20UK!5e0!3m2!1sen!2s!4v1775227529949!5m2!1sen!2s" style="border:0; width: 100% !important; height: 450px !important;" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="white-bg clearfix">
               <div class="row clearfix">
                 <div class="col-md-4">
@@ -450,7 +450,7 @@
                     </p>
 
                     <ul class="address-list">
-                      <li><i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX</li>
+                      <li><i class="fa fa-map-marker"></i> 82 Harley Street, London, W1G 7HN</li>
                       <li><i class="fa fa-phone"></i> 0208 839 0083</li>
                       <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>
                       <li>
@@ -504,7 +504,7 @@
           <div class="col-sm-6 col-md-3">
             <h4>Contact Details</h4>
             <ul class="footer-contact">
-              <li><i class="fa fa-map-marker"></i> 124-128 city road, london, EC1V 2NX</li>
+              <li><i class="fa fa-map-marker"></i> 82 Harley Street, London, W1G 7HN</li>
               <li><i class="fa fa-phone"></i> 0208 839 0083</li>
               <li><i class="fa fa-envelope"></i> info@officialhairclinic.com</li>
               <li><i class="fa fa-suitcase"></i> 08 AM - 05 PM</li>

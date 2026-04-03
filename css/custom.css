@@ -619,6 +619,63 @@
 	padding: 10px 24px !important;
 }
 
+#contact .contact-points {
+	background: #f8f8f8;
+	border: 1px solid #e8e8e8;
+	padding: 22px;
+}
+
+#contact .contact-points .about-title {
+	margin: 0 0 10px;
+	font-size: 24px;
+	line-height: 1.2;
+	color: #111;
+}
+
+#contact .contact-points-desc {
+	margin: 0 0 14px;
+	color: #444;
+	line-height: 1.65;
+	font-size: 15px;
+}
+
+#contact .contact-points-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#contact .contact-points-list li {
+	position: relative;
+	padding-left: 18px;
+	margin-bottom: 10px;
+	color: #111;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+#contact .contact-points-list li:last-child {
+	margin-bottom: 0;
+}
+
+#contact .contact-points-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 8px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #111;
+}
+
+@media (max-width: 991px) {
+	#contact .contact-points {
+		margin-bottom: 20px;
+	}
+}
+
 #message-us > img{
 	width: 100%;
 	aspect-ratio: 16/7 !important;
@@ -1568,18 +1625,18 @@ details ul{
 }
 
 /* Contact page */
-.contact-page #contact-intro,
-.contact-page #visit-us,
-.contact-page #contact {
+#contact-intro,
+#visit-us,
+#contact {
 	background: #f5f5f5;
 }
 
-.contact-page .contact-hero-wrap {
+.contact-hero-wrap {
 	padding-top: 140px;
 	padding-bottom: 70px;
 }
 
-.contact-page .contact-hero-title .title-inner {
+.contact-hero-title .title-inner {
 	margin: 0 auto;
 	max-width: 860px;
 	background: #fff;
@@ -1587,12 +1644,12 @@ details ul{
 	padding: 30px;
 }
 
-.contact-page .contact-grid {
+.contact-grid {
 	margin-left: -15px;
 	margin-right: -15px;
 }
 
-.contact-page .contact-col {
+.contact-col {
 	float: left;
 	width: 50%;
 	padding-left: 15px;
@@ -1601,54 +1658,60 @@ details ul{
 	box-sizing: border-box;
 }
 
-.contact-page .contact-block,
-.contact-page .contact-whatsapp,
-.contact-page .contact-map-wrap {
+.contact-block,
+.contact-whatsapp,
+.contact-map-wrap {
 	border: 1px solid #e8e8e8;
 }
 
-.contact-page .contact-block h2,
-.contact-page .contact-whatsapp h3 {
+.contact-block h2,
+.contact-whatsapp h3 {
 	margin-top: 0;
 	margin-bottom: 14px;
 	color: #111;
 }
 
-.contact-page .contact-block p,
-.contact-page .contact-whatsapp p {
+.contact-block p,
+.contact-whatsapp p {
 	margin-bottom: 12px;
 	line-height: 1.75;
 	color: #4f4f4f;
 }
 
-.contact-page .contact-image-wrap {
+.address-list a,
+.address-list li{
+	font-weight: 500;
+	color: #0f0f0f;
+}
+
+.contact-image-wrap {
 	border: 1px solid #e8e8e8;
 	overflow: hidden;
 	min-height: 100%;
 }
 
-.contact-page .contact-image-wrap img {
+.contact-image-wrap img {
 	display: block;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.contact-page .contact-whatsapp {
+.contact-whatsapp {
 	margin-top: 5px;
 	margin-bottom: 10px;
 	background: #fafafa;
 	border-left: 4px solid #111;
 }
 
-.contact-page .contact-map-wrap {
+.contact-map-wrap {
 	overflow: hidden;
 	background: #eee;
 	height: 100%;
 	min-height: 340px;
 }
 
-.contact-page .contact-map-wrap iframe {
+.contact-map-wrap iframe {
 	width: 100%;
 	height: 100%;
 	min-height: 340px;
@@ -1676,17 +1739,17 @@ details ul{
 
 @media (max-width: 991px) {
 	.pricing-grid-2 .pricing-col,
-	.contact-page .contact-col {
+	.contact-col {
 		width: 100%;
 	}
 
 	.pricing-page .pricing-hero-image,
-	.contact-page .contact-image-wrap {
+	.contact-image-wrap {
 		min-height: 0;
 	}
 
 	.pricing-page .pricing-hero-image img,
-	.contact-page .contact-image-wrap img {
+	.contact-image-wrap img {
 		height: auto;
 	}
 
@@ -1704,12 +1767,12 @@ details ul{
 
 @media (max-width: 767px) {
 	.pricing-page .pricing-hero-wrap,
-	.contact-page .contact-hero-wrap {
+	.contact-hero-wrap {
 		padding-top: 120px;
 		padding-bottom: 50px;
 	}
 
-	.contact-page .contact-hero-title .title-inner {
+	.contact-hero-title .title-inner {
 		padding: 20px;
 	}
 
