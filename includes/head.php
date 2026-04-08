@@ -2,7 +2,7 @@
 $pageTitle = $pageTitle ?? 'Official Hair Clinic';
 $metaDescription = $metaDescription ?? '';
 $bodyClass = $bodyClass ?? '';
-$customCssVersion = $customCssVersion ?? '1.7';
+$customCssVersion = $customCssVersion ?? '1.8';
 $bodyClassAttr = $bodyClass !== '' ? ' class="' . htmlspecialchars($bodyClass, ENT_QUOTES, 'UTF-8') . '"' : '';
 ?>
 <!doctype html>

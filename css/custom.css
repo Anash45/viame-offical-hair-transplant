@@ -620,8 +620,6 @@
 }
 
 #contact .contact-points {
-	background: #f8f8f8;
-	border: 1px solid #e8e8e8;
 	padding: 22px;
 }
 
@@ -699,6 +697,47 @@
 
 #status{
     background-size: contain;
+}
+
+.hero-contact-details {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.hero-contact-details p {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 0;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+
+.hero-contact-details i {
+	width: 22px;
+	margin-right: 6px;
+	text-align: center;
+}
+
+.hero-contact-details a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.hero-contact-details a:hover {
+	color: #fff;
+	border-bottom-color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 767px) {
+	.hero-contact-details p {
+		font-size: 15px;
+	}
 }
 
 /* About page layout */
@@ -1737,7 +1776,15 @@ details ul{
 	padding-bottom: 24px;
 }
 
+
+ul.navigation li:last-child a{
+	display: none;
+}
 @media (max-width: 991px) {
+
+	ul.navigation li:last-child a{
+		display: block;
+	}
 	.pricing-grid-2 .pricing-col,
 	.contact-col {
 		width: 100%;

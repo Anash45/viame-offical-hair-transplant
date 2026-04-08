@@ -26,6 +26,10 @@ include __DIR__ . '/includes/header.php';
                 <h2>
                   Transplants from the UK’s most innovative hair loss clinic.
                 </h2>
+                <div class="hero-contact-details">
+                  <p><i class="fa fa-phone"></i> <a href="tel:02088390083">0208 839 0083</a></p>
+                  <p><i class="fa fa-globe"></i> <a href="https://officialhairclinic.com" target="_blank" rel="noopener noreferrer">officialhairclinic.com</a></p>
+                </div>
               </div>
               <!--/slidecaption-->
               <div class="centering">
