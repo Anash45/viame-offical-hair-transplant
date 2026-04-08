@@ -676,7 +676,7 @@
 
 #message-us > img{
 	width: 100%;
-	aspect-ratio: 16/7 !important;
+	aspect-ratio: 16/5 !important;
 	object-fit: cover;
 }
 
