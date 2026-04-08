@@ -1777,9 +1777,9 @@ details ul{
 }
 
 
-ul.navigation li:last-child a{
+/* ul.navigation li:last-child a{
 	display: none;
-}
+} */
 @media (max-width: 991px) {
 
 	ul.navigation li:last-child a{
