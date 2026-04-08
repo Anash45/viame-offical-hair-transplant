@@ -7,7 +7,7 @@ $navItems = [
     'science' => ['label' => 'Science', 'href' => 'science.php'],
     'pricing' => ['label' => 'Pricing', 'href' => 'pricing.php'],
     'contact' => ['label' => 'Contact', 'href' => 'contact.php'],
-    'book' => ['label' => 'Book Consultation', 'href' => '#contact'],
+    'book' => ['label' => 'Book Consultation', 'href' => '#contact-form'],
 ];
 ?>
       <div class="header clearfix">

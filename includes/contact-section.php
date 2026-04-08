@@ -75,7 +75,7 @@
                   <!--/.padding-->
                 </div>
                 <!--/col-md-4-->
-                <div class="col-md-8">
+                <div class="col-md-8" id="contact-form">
                   <div class="padding">
                     <div id="form-wrapper">
                       <div id="form-inner">
