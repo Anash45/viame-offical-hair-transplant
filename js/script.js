@@ -1,3 +1,6 @@
+
+
+
 //slideshow background setting
 jQuery(function ($) {
 
@@ -47,15 +50,7 @@ $('body').on('click',function(){
 })
 
 
-//Page scrolling
-$(document).ready(function () {
-    $('.navigation').onePageNav({
-        filter: ':not(.external)',
-        scrollThreshold: 0.25,
-        scrollOffset: 90
-    });
 
-});
 
 
 // Video responsive
@@ -232,5 +227,3 @@ $(document).ready(function () {
         effect: 'fade'
     })
 });
-
-

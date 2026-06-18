@@ -155,7 +155,7 @@
                 world-class transplants and aftercare so you get results that
                 look and feel completely natural.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -624,7 +624,7 @@
               <li><a href="#portfolio">Journey</a></li>
               <li><a href="#about">Stories</a></li>
               <li><a href="#services">Results</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-3">

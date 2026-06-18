@@ -160,7 +160,7 @@
                 In-person consultations also include donor-area measurement and
                 a hands-on scalp assessment.
               </p>
-              <a class="view-more" href="#contact">Book now</a>
+              <a class="view-more" href="#contact-form">Book now</a>
             </div>
           </div>
           <div class="contact-col">
@@ -318,7 +318,7 @@
               <li><a href="#home">Home</a></li>
               <li><a href="#contact-intro">Consultation</a></li>
               <li><a href="#visit-us">Visit Us</a></li>
-              <li><a href="#contact">Contact Form</a></li>
+              <li><a href="#contact-form">Contact Form</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-3">

@@ -36,7 +36,7 @@ include __DIR__ . '/includes/header.php';
                 world-class transplants and aftercare so you get results that
                 look and feel completely natural.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ include __DIR__ . '/includes/header.php';
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">

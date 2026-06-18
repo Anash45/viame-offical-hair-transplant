@@ -42,7 +42,7 @@ include __DIR__ . '/includes/header.php';
                 In-person consultations also include donor-area measurement and
                 a hands-on scalp assessment.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book now</a>
+              <a class="view-more bac-btn" href="#contact-form">Book now</a>
             </div>
           </div>
           <div class="contact-col">

@@ -147,7 +147,7 @@
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -251,7 +251,7 @@
                 Surgeons and an associate member of ISHRS, he adheres to high
                 standards of safety, ethics, and professionalism.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -593,7 +593,7 @@
               <li><a href="#portfolio">Process</a></li>
               <li><a href="#about">Mission</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-3">

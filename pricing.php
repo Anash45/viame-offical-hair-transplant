@@ -25,7 +25,7 @@ include __DIR__ . '/includes/header.php';
                 based on the procedure size needed to achieve your outcome,
                 never to inflate cost.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="pricing-col">
@@ -111,7 +111,7 @@ include __DIR__ . '/includes/header.php';
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -145,7 +145,7 @@ include __DIR__ . '/includes/header.php';
               <p class="price">£250 per month / 12 months</p>
 
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
           </div>
 
@@ -158,7 +158,7 @@ include __DIR__ . '/includes/header.php';
               <p><strong>£3,999.99</strong></p>
               <p class="price">£333 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
           </div>
 
@@ -171,7 +171,7 @@ include __DIR__ . '/includes/header.php';
               <p><strong>£5,999.99</strong></p>
               <p class="price">£499 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
           </div>
 
@@ -185,7 +185,7 @@ include __DIR__ . '/includes/header.php';
               <p><strong>£12,500</strong></p>
               <p class="price">£1,042 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
           </div>
         </div>

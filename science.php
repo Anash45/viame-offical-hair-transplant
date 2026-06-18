@@ -38,7 +38,7 @@ include __DIR__ . '/includes/header.php';
                 hair growth.
               </p>
               <p>Contact us to begin your hair restoration journey today.</p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">
@@ -64,7 +64,7 @@ include __DIR__ . '/includes/header.php';
                 noticeable shedding. Understanding this connection can help you
                 manage and restore healthy hair growth.
               </p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">
@@ -108,7 +108,7 @@ include __DIR__ . '/includes/header.php';
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -206,7 +206,7 @@ include __DIR__ . '/includes/header.php';
                 Book your consultation today and take the first step toward
                 stronger, healthier hair and a more confident you.
               </p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">

@@ -35,7 +35,7 @@ include __DIR__ . '/includes/header.php';
           <p>
             Need immediate help? Call us on <a href="tel:02088390083">0208 839 0083</a>.
           </p>
-          <a class="view-more bac-btn" href="index.php#contact">Back to Home</a>
+          <a class="view-more bac-btn" href="index.php#contact-form">Back to Home</a>
         </div>
       </div>
     </section>

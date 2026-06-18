@@ -156,7 +156,7 @@
                 hair growth.
               </p>
               <p>Contact us to begin your hair restoration journey today.</p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">
@@ -182,7 +182,7 @@
                 noticeable shedding. Understanding this connection can help you
                 manage and restore healthy hair growth.
               </p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">
@@ -226,7 +226,7 @@
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -324,7 +324,7 @@
                 Book your consultation today and take the first step toward
                 stronger, healthier hair and a more confident you.
               </p>
-              <a class="view-more" href="#contact">Contact Us</a>
+              <a class="view-more" href="#contact-form">Contact Us</a>
             </div>
           </div>
           <div class="science-col">
@@ -499,7 +499,7 @@
               <li><a href="#science-intro">Science</a></li>
               <li><a href="#science-process">Process</a></li>
               <li><a href="#science-faq">FAQ</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-3">

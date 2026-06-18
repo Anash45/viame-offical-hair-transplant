@@ -77,7 +77,7 @@
                 <!--/col-md-4-->
                 <div class="col-md-8" id="contact-form">
                   <div class="padding">
-                    <div id="form-wrapper">
+                    <div id="form-wrapper" class="contact-form-wrapper">
                       <div id="form-inner">
                         <div id="ErrResults"><!-- retrive Error Here --></div>
                         <div id="MainResult">

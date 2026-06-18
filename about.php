@@ -33,7 +33,7 @@ include __DIR__ . '/includes/header.php';
                 <li>10 years experience as a medical professional</li>
                 <li>Specialists in advanced hair transplant techniques</li>
               </ul>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-5">
@@ -137,7 +137,7 @@ include __DIR__ . '/includes/header.php';
                 Surgeons and an associate member of ISHRS, he adheres to high
                 standards of safety, ethics, and professionalism.
               </p>
-              <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+              <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
             </div>
           </div>
           <div class="col-md-6">

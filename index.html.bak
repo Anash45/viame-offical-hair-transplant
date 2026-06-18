@@ -269,7 +269,7 @@
                   <li>10 years experience as a medical professional</li>
                   <li>Specialists in advanced hair transplant techniques</li>
                 </ul>
-                <a class="view-more bac-btn" href="#contact">Book a consultation</a>
+                <a class="view-more bac-btn" href="#contact-form">Book a consultation</a>
               </div>
             </div>
             <div class="col-md-5">
@@ -808,7 +808,7 @@
               <p class="price">£250 per month / 12 months</p>
 
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
             <!--/.pricing-table-->
           </div>
@@ -823,7 +823,7 @@
               <p><strong>£3,999.99</strong></p>
               <p class="price">£333 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
             <!--/.pricing-table-->
           </div>
@@ -838,7 +838,7 @@
               <p><strong>£5,999.99</strong></p>
               <p class="price">£499 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
             <!--/.pricing-table-->
           </div>
@@ -854,7 +854,7 @@
               <p><strong>£12,500</strong></p>
               <p class="price">£1,042 per month / 12 months</p>
               <div class="spacing40 mt-auto"></div>
-              <a class="view-more" href="#contact">Order Now!</a>
+              <a class="view-more" href="#contact-form">Order Now!</a>
             </div>
           </div>
           <!--/col-sm-3-->
@@ -1017,7 +1017,7 @@
               <li><a href="#portfolio">Process</a></li>
               <li><a href="#about">Mission</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
           <!--/.col-md-4-->
