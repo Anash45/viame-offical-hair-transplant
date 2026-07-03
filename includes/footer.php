@@ -103,13 +103,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 <div class="whatsapp-float-wrap">
-  <a class="whatsapp-pill" href="https://wa.me/442088390083" target="_blank" rel="noopener noreferrer"
+  <a class="whatsapp-pill" href="https://wa.me/+447448592240" target="_blank" rel="noopener noreferrer"
     title="Get in touch with us on WhatsApp">
     <i class="fa fa-phone"></i>
     <span>Get in touch with us!</span>
   </a>
   <div class="whatsapp-float">
-    <a href="https://wa.me/442088390083" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
+    <a href="https://wa.me/+447448592240" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
       <img loading="lazy" src="./images/whatsapp.png" alt="Whatsapp">
     </a>
   </div>
