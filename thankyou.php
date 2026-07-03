@@ -15,6 +15,9 @@ $footerQuickLinks = [
 include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
+    <script>
+      fbq('track', 'Lead');
+    </script>
       <div class="container contact-hero-wrap">
         <div class="title-content clearfix">
           <div class="title-inner">
