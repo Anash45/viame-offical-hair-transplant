@@ -25,13 +25,6 @@ $bodyClassAttr = $bodyClass !== '' ? ' class="' . htmlspecialchars($bodyClass, E
       'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '882022384307446');
     fbq('track', 'PageView');
-    const originalFbq = window.fbq;
-
-    setInterval(() => {
-      if (window.fbq !== originalFbq) {
-        console.log("fbq changed!", window.fbq);
-      }
-    }, 100);
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=882022384307446&ev=PageView&noscript=1" /></noscript>
