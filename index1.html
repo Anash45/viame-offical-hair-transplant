@@ -23,11 +23,13 @@
     <script>
     const originalFbq = window.fbq;
 
-setInterval(() => {
-  if (window.fbq !== originalFbq) {
-    console.log("fbq changed!", window.fbq);
-  }
-}, 100);
+    setInterval(() => {
+      if (window.fbq !== originalFbq) {
+        console.log("fbq changed!", window.fbq);
+      }else{
+        console.log("fbq NOT changed!", window.fbq);
+      }
+    }, 100);
    </script>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta charset="utf-8" />
